@@ -1,0 +1,51 @@
+body{
+    background: linear-gradient(rgb(208, 133, 146),white);
+    margin: auto;
+}
+.design{
+   
+    display: grid;
+    height: 30px; 
+    grid-template-columns: 100px 100px 100px 100px 100px ;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgba(91, 40, 180, 0.962);
+    font-family:serif;
+    text-shadow: -8px -1px 2px white;
+}
+.d2{
+     text-align: left;
+    text-align: center;
+   
+}
+.d3{
+    text-align: center;
+    color:rgba(91, 40, 180, 0.962); 
+    font-size: 25px;
+    font-family: serif;
+
+}
+.d4{
+   
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    border: 2px double papayawhip;
+    height: 500px;
+    width: 1005px;
+    box-shadow: -2px -2px 30px;
+    margin: auto;
+    padding: 20px;
+}
+p{
+    position: relative;
+    left: 40px;
+    font-size:22px ;
+}

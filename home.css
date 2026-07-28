@@ -1,0 +1,45 @@
+body{
+     background-color: pink;
+}
+.design{
+   
+    display: grid;
+    height: 30px; 
+    grid-template-columns: 100px 100px 100px 100px 100px ;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+.d1{
+   text-align: center;
+    font-size: 30px;
+    color: rgba(91, 40, 180, 0.962);
+    font-family:serif;
+    text-shadow: -2px -2px 4px white;
+}
+.d2{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(42, 137, 131);
+    font-family: serif;
+    text-shadow:  -3px 2px 2px rgb(210, 175, 100);
+}
+.d3{
+    text-align: center;
+}
+.d4{
+
+    font-size: 18px;
+    font-style: italic;
+    border: 2px solid blanchedalmond;
+   margin: auto;
+    width: 600px;
+    box-shadow: -2px 2px  20px black;
+   
+    
+}
+.d4:hover{
+    background-color: darkmagenta;
+    color: white;
+
+}

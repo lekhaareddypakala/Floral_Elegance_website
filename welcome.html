@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Floral Elegance Welcome</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to right, #ffe6f0, #fff5f8);
+            font-family: Arial;
+        }
+
+        .box {
+            text-align: center;
+            padding: 30px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            color: green;
+            margin-top: 15px;
+        }
+
+        button {
+            padding: 10px 18px;
+            margin-top: 15px;
+            cursor: pointer;
+            border: none;
+            background: #ff4d88;
+            color: white;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background: #e6005c;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="box">
+    <h3>Floral Elegance </h3>
+
+    <h2 id="msg"></h2>
+
+    <button onclick="goHome()">Go to Home</button>
+</div>
+
+<script>
+
+let name = prompt("Enter your name:");
+
+if (!name || name.trim() === "") {
+    alert("Name is required!");
+    location.reload();   // ask again
+} else {
+    document.getElementById("msg").innerText =
+        "Hello " + name + ", Welcome to Floral Elegance ";
+}
+
+function goHome() {
+    window.location.href = "home1.html";
+}
+
+</script>
+
+</body>
+</html>

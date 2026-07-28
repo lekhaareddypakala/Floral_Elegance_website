@@ -1,0 +1,75 @@
+body{
+    background-color: pink;
+    margin: auto;
+}
+.design{
+   
+    display: grid;
+    height: 30px; 
+    grid-template-columns: 100px 100px 100px 100px 100px ;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.d1{
+    text-align: center;
+    font-size:25px;
+    color: rgb(89, 40, 135);
+    font-family: sans-serif;
+    
+}
+.d2{
+    border:2px solid bisque;
+    margin:auto;
+    width: 600px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -2px 2px 30px black;
+    font-style: italic;
+}
+.d3{
+    margin: auto;
+    border:2px solid bisque; ;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    font-size:15px;
+    position: relative;
+    top: 30px;
+}
+d4{
+    position: relative;
+    top: 130px;
+    margin: auto;
+} 
+ .d5{
+    text-align: center;
+    position: relative;
+    top: 50px;
+ }
+ .d6{
+     text-align: center;
+    position: relative;
+    top: 60px;
+ }
+ .d7{
+     text-align: center;
+    position: relative;
+    top: 70px;
+    left: 25px;
+ }
+ .d8{
+    text-align: center;
+    position: relative;
+    height: 30px;
+    top: 80px;
+    left: -25px;
+ }
+ .d9{
+    text-align: center;
+    position: relative;
+    top: 90px;
+    left: -80px;
+ }

@@ -1,0 +1,21 @@
+body{
+    background-color: pink;
+}
+.design{
+   
+    display: grid;
+    height: 30px; 
+    grid-template-columns: 100px 100px 100px 100px 100px ;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.d1{
+    border: 2px solid bisque;
+    box-shadow: -2px 2px 30px;
+    width: 600px;
+    margin: auto;
+    position: relative;
+    top: 80px;
+}

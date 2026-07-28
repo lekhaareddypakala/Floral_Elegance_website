@@ -1,0 +1,56 @@
+body{
+    background:pink;
+    margin: auto;
+}
+.design{
+        display: grid;
+    height: 30px; 
+    grid-template-columns: 100px 100px 100px 100px 100px ;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: grid;
+    background-color:white ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.grid{
+    margin: auto;
+    display: grid;
+    grid-template-columns:250px 250px 250px ;
+    grid-auto-columns: 250px;
+    gap:50px;
+    grid-template-rows: 250px 250px  250px;
+    grid-auto-rows: 250px;
+    padding: 20px;
+
+}
+.d1{
+    text-align: center;
+    color:rgb(59, 115, 218);
+    text-shadow: -2px 2px 2px rgb(191, 135, 33);
+}
+.d2{
+    border: 2px solid bisque;
+    box-shadow: -2px 2px 30px black;
+   margin: auto;
+    font-size: 18px;
+    font-style: italic;
+    width: 700px;
+    padding: 10px;
+}
+.d2:hover{
+    background: linear-gradient(rgb(206, 184, 59),rgb(205, 87, 87));
+}
+.d3{
+    position: relative;
+    left: 1100px;
+    bottom: 700px;
+    height: 200px;
+    width: 300px;
+
+}
