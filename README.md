@@ -13,8 +13,8 @@ Smooth navigation and user interaction
 
 Technologies Used
 
-HTML5 for website structure
-CSS3 for styling and responsive design
+HTML for website structure
+CSS for styling and responsive design
 JavaScript for interactive features
 React.js for component-based development
 
