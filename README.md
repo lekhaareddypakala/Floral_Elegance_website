@@ -1,23 +1,59 @@
-Floral Website
+# Floral Website
 
-A responsive and interactive floral website developed using HTML, CSS, JavaScript, and React.js. This project focuses on creating an attractive user interface with modern design, smooth navigation, and dynamic components to showcase different flower collections.
+## Overview
 
-Features
+Floral Website is a responsive and visually appealing website designed to showcase flowers, floral arrangements, and related services. The website provides an attractive user interface where users can explore different flower collections and view floral products.
 
-Responsive floral-themed user interface
-Interactive components using React.js
-Modern styling using CSS
-Dynamic functionality using JavaScript
-Mobile-friendly design
-Smooth navigation and user interaction
+## Features
 
-Technologies Used
+- Responsive floral website design
+- Attractive homepage with flower collections
+- Navigation bar for easy access
+- Product showcase section
+- About and contact sections
+- Clean and user-friendly interface
+- Mobile-friendly layout
 
-HTML for website structure
-CSS for styling and responsive design
-JavaScript for interactive features
-React.js for component-based development
+## Technologies Used
 
-Project Overview
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
 
-The Floral Website is designed to provide an engaging online experience for users interested in flowers. It demonstrates frontend development skills by implementing reusable components, responsive layouts, and interactive features.
+## Project Structure
+
+```
+Floral-Website
+│
+├── index.html          # Main webpage
+├── style.css           # Styling file
+├── script.js           # JavaScript functionality
+├── images/             # Flower images and assets
+└── README.md           # Project documentation
+```
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone <repository-link>
+```
+
+2. Open the project folder.
+
+3. Run the website:
+
+Open `index.html` in your browser.
+
+## Features to Add in Future
+
+- Online flower ordering system
+- Shopping cart functionality
+- Payment integration
+- Backend database support
+
+## Author
+
+Lekhaa Reddy
